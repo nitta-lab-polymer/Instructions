@@ -1,5 +1,5 @@
 # Instructions
 
-開発環境構築ドキュメント集
+ドキュメント集
 
-- [windowsのセットアップ](./windows_setup.md)
+- [windows環境構築](./windows_setup.md)
