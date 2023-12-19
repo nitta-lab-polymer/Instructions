@@ -72,6 +72,8 @@ winget install --id Git.Git
 5. クローン先のフォルダを選択します
 6. VSCodeでクローンしたフォルダを開き、`ctrl + shift + p`でコマンドパレットを開き、`devcontainers: reopen in container`を選択してください。`project`ディレクトリが作成されるので、その中で開発を行ってください。
 
+今後このフォルダを開くときは、`ctrl + shift + p`でコマンドパレットを開き、`devcontainers: reopen in container`を選択してください。
+
 ### 方法2 Devcontainerをセットアップする
 
 1. VSCodeで任意の新しいフォルダを開きます
@@ -82,3 +84,5 @@ winget install --id Git.Git
 6. 起動後、[こちら](https://github.com/nitta-lab-polymer/dotfiles)のReadmeを参考にして、`.devcontainer`に`dotfiles`の記述を追加します
 7. `ctrl + shift + p`を押し、`Rebuild container`を選択します
 8. しばらく待つと開発用コンテナが再起動します。
+
+今後このフォルダを開くときは、`ctrl + shift + p`でコマンドパレットを開き、`devcontainers: reopen in container`を選択してください。
