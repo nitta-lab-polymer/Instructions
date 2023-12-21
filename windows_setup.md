@@ -73,6 +73,7 @@ winget install --id Git.Git
 6. VSCodeでクローンしたフォルダを開き、`ctrl + shift + p`でコマンドパレットを開き、`devcontainers: reopen in container`を選択してください。`project`ディレクトリが作成されるので、その中で開発を行ってください。
 
 ※重要
+
 **今後このフォルダを開くときは、`ctrl + shift + p`でコマンドパレットを開き、`devcontainers: reopen in container`を選択してください。**
 
 ### 方法2 Devcontainerをセットアップする
@@ -87,4 +88,5 @@ winget install --id Git.Git
 8. しばらく待つと開発用コンテナが再起動します。
 
 ※重要
+
 **今後このフォルダを開くときは、`ctrl + shift + p`でコマンドパレットを開き、`devcontainers: reopen in container`を選択してください。**
