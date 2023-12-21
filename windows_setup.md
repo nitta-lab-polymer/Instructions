@@ -76,7 +76,7 @@ winget install --id Git.Git
 
 **今後このフォルダを開くときは、`ctrl + shift + p`でコマンドパレットを開き、`devcontainers: reopen in container`を選択してください。**
 
-### 方法2 Devcontainerをセットアップする
+### 方法2 Devcontainerを手動でセットアップする
 
 1. VSCodeで任意の新しいフォルダを開きます
 2. フォルダ内に`Dockerfile`を作成します。内容は[テンプレート](https://github.com/nitta-lab-polymer/python-dev)を参考にしてください
