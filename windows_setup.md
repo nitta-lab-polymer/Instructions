@@ -68,9 +68,11 @@ winget install --id Git.Git
 1. VSCodeを開きます
 2. `ctrl + shift + p`を押し、`Git: Clone`を選択します
 3. `Githubから複製`を選択します
-4. 検索欄に`nitta-lab-polymer/python-dev`と入力し、該当のリポジトリを選択します
-5. クローン先のフォルダを選択します
-6. VSCodeでクローンしたフォルダを開き、`ctrl + shift + p`でコマンドパレットを開き、`devcontainers: reopen in container`を選択してください。`project`ディレクトリが作成されるので、その中で開発を行ってください。
+4. ブラウザが開くので、Githubにサインインします。
+5. VSCodeに戻り検索欄に`nitta-lab-polymer/python-dev`と入力し、該当のリポジトリを選択します
+6. クローン先のフォルダを選択します
+7. VSCodeでクローンしたフォルダを開き、`ctrl + shift + p`でコマンドパレットを開き、`devcontainers: reopen in container`を選択してください。この処理には数分掛かる可能性があります。
+8. `project`ディレクトリが作成されるので、その中で開発を行ってください。
 
 ※重要
 
@@ -80,8 +82,8 @@ winget install --id Git.Git
 
 1. VSCodeで任意の新しいフォルダを開きます
 2. フォルダ内に`Dockerfile`を作成します。内容は[テンプレート](https://github.com/nitta-lab-polymer/python-dev)を参考にしてください
-3. `ctrl + shift + p`を押し、`devcontainers: reopen in container`を選択します
-4. `Dockerfileから`を選択します
+3. `ctrl + shift + p`を押し、`devcontainers: reopen in container`を選択します。
+4. `Dockerfileから`を選択します。
 5. しばらく待つと開発用コンテナが起動します。
 6. 起動後、[こちら](https://github.com/nitta-lab-polymer/dotfiles)のReadmeを参考にして、`.devcontainer`に`dotfiles`の記述を追加します
 7. `ctrl + shift + p`を押し、`Rebuild container`を選択します
